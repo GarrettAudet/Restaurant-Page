@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page-functionality",
+  "version": "1.0.0",
+  "description": "A utility package for handling restaurant HTML generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "restaurant test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarrettAudet/Restaurant-Page.git"
+  },
+  "author": "Garrett Audet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GarrettAudet/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/GarrettAudet/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
