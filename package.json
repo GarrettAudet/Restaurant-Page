@@ -4,7 +4,9 @@
   "description": "A utility package for handling restaurant HTML generation",
   "main": "index.js",
   "scripts": {
-    "test": "restaurant test"
+    "test": "restaurant test",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --open"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,11 @@
   },
   "homepage": "https://github.com/GarrettAudet/Restaurant-Page#readme",
   "devDependencies": {
+    "css-loader": "^6.10.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
     "webpack": "^5.90.3",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.3"
   }
 }

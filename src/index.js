@@ -1,1 +1,3 @@
-console.log("Test");
+import './styles.css';
+
+console.log("Test Webpack!");
