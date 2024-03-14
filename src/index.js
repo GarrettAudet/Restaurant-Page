@@ -1,5 +1,6 @@
 import './styles.css';
-import Chef from './Chef.png'
+import loadHome from './home.js';
+import Chef from './Chef.png';
 
 // Get all buttons with the class 'menu-button'
 const buttons = document.querySelectorAll('.header-group');
@@ -13,6 +14,15 @@ buttons.forEach(button => {
     
     // Add the 'selected' class to the clicked button
     this.classList.add('selected');
+
+    // Determine which content to load based on the button clicked
+    if (this.textContent === 'Menu') {
+      loadHome();
+    } else if (this.textContent === 'Home') {
+      loadHome();
+    } else if (this.textContent === 'Contact') {
+      loadHome();
+    }
   });
 });
 
