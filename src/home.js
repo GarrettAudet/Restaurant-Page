@@ -1,4 +1,4 @@
-import Chef from './Chef.png';
+import Chef from './Images/Chef.png';
 
 function loadMenu() {
   const content = document.getElementById('content');

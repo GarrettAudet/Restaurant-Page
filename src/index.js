@@ -1,7 +1,7 @@
 import './styles.css';
 import loadHome from './home.js';
 import loadMenu from './menu.js';
-import Chef from './Chef.png';
+import Chef from './Images/Chef.png';
 
 // Get all buttons with the class 'menu-button'
 const buttons = document.querySelectorAll('.header-group');
@@ -26,5 +26,3 @@ buttons.forEach(button => {
 });
 
 document.getElementById('imageContainer').src = Chef;
-
-console.log("Test Webpack!");

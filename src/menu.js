@@ -1,7 +1,7 @@
-import pepe from './pepe.png';
-import disgustoso from './disgustoso.png';
-import gamberi from './gamberi.png';
-import salsiccia from './salsiccia.png';
+import pepe from './Images/pepe.png';
+import disgustoso from './Images/disgustoso.png';
+import gamberi from './Images/gamberi.png';
+import salsiccia from './Images/salsiccia.png';
 
 function loadDynamicMenu() {
     const content = document.getElementById('content');
