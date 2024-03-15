@@ -1,5 +1,6 @@
 import './styles.css';
 import loadHome from './home.js';
+import loadMenu from './menu.js';
 import Chef from './Chef.png';
 
 // Get all buttons with the class 'menu-button'
@@ -17,12 +18,10 @@ buttons.forEach(button => {
 
     // Determine which content to load based on the button clicked
     if (this.textContent === 'Menu') {
-      loadHome();
+      loadMenu();
     } else if (this.textContent === 'Home') {
       loadHome();
-    } else if (this.textContent === 'Contact') {
-      loadHome();
-    }
+    } 
   });
 });
 

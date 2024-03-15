@@ -1,6 +1,7 @@
 :root{
     --primary-color-night: rgba(0,0,0,0.9);
     --primary-color-light: rgba(0,0,0,0.6);
+    --primary-color-white: rgba(255,255,255,0.3);
     --font-size-button: 2rem;
     --font-color: #eee;
     --header-footer-height: 70px;
@@ -29,10 +30,10 @@ main {
 .content {
     gap: 10px;
     width: 500px;
-    height: 500px;
+    height: 750px;
     background-color: var(--primary-color-light);
     padding: 0rem 3rem;
-    margin: 4rem;
+    margin: 3rem 4rem;
     color: var(--font-color);
     display: flex;
     flex-direction: column;
@@ -105,6 +106,34 @@ button:hover {
 .selected {
     padding-bottom: 5px;
     border-bottom: 2px solid var(--font-color);
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: var(--primary-color-light);
+    max-width: 100%; /* or any specific value */
+    max-height: 100%; /* or any specific value */
+    border-radius: 20px;
+}
+
+.menu-item:hover {
+    background-color: var(--primary-color-white);
+}
+
+.menu-item img {
+    height: 100px;
+    width: 100px;
 }
 
 /* Content */ 
